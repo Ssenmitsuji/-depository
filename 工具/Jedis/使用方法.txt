@@ -1,0 +1,6 @@
+        //通过连接池工具类获取
+        Jedis jedis = JedisPoolUtils.getJedis();
+        //3. 使用
+        jedis.set("hello","world");
+        //4. 关闭 归还到连接池中
+        jedis.close();

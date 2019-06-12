@@ -1,0 +1,2 @@
+//使用工具类
+JdbcTemplate jdbc = new JdbcTemplate(JDBCUtils.getDataSource());
